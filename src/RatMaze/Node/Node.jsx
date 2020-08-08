@@ -10,7 +10,7 @@ export default class Node extends Component{
        const extraClassName = isFinish ? 'node-finish' : isStart ? 'node-start' : '';
 
         return(
-            <div className={`node ${extraClassName}`}> <h3>A</h3> </div>
+            <div className={`node ${extraClassName}`}></div>
         )
     }
 }
