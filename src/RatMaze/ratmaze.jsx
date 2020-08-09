@@ -19,13 +19,13 @@ export default class ratmaze extends React.Component{
         const nodes =[];
         for(let row =0;row<14;row++){
             const currentRow =[];
-            for(let col=0;col<40;col++){
+            for(let col=0;col<30;col++){
                 //currentRow.push([]);
                 const currentNode ={
                     col,
                     row,
                     isStart: row===7 && col === 5,
-                    isFinish: row===7 && col === 35,
+                    isFinish: row===7 && col === 24,
                 }
                 currentRow.push(currentNode);
             }
